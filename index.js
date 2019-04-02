@@ -7,9 +7,8 @@ const facts = [
   "He hated the sound of his own voice"
 ]
 
-
-
 var newArr = [];
+var newArr2 = [];
 var counter = 0;
 
 function theBeatlesPlay(musicians, instruments) {
@@ -17,4 +16,12 @@ function theBeatlesPlay(musicians, instruments) {
     newArr.push(musicians[i] + " plays " + instruments[i]);
   }
 return newArr;
+}
+
+function johnLennonFacts(facts) {
+  while (counter < 5) {
+    newArr2.push(facts[counter] + "!!!")
+    counter++;
+  }
+  return newArr2;
 }

@@ -3,5 +3,5 @@ var instrumentsArr = [];
 var counter = 0;
 
 function theBeatlesPlay(musicians, instruments) {
-  
+
 }

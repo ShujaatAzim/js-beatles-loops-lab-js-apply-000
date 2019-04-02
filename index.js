@@ -8,4 +8,4 @@ function theBeatlesPlay(musicians, instruments) {
     newArr.push(musicians[i] + instruments.indexOf(i))
   }
 return newArr;
-} 
+}

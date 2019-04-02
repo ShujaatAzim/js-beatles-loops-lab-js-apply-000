@@ -17,10 +17,10 @@ const facts = ["He was the last Beatle to learn to drive",
 "He hated the sound of his own voice"
 ];
 
-function johnLennonFacts(facts) {
+function johnLennonFacts(array) {
   var counter = 0;
-  while (counter < facts.length) {
-    newArr2.push(facts[counter] + "!!!")
+  while (counter < array.length) {
+    newArr2.push(array[counter] + "!!!")
     counter++;
   }
   return newArr2;

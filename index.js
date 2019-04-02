@@ -22,7 +22,7 @@ function johnLennonFacts(array) {
 
 function iLoveTheBeatles(number) {
   var newArr3 = [];
-  var counter = parseInt(number) < 15 ? 15 - number : 1;
+  var counter = number < 15 ? 15 - number : 1;
   do {
     newArr3.push("I love the Beatles!")
     number --;

@@ -16,9 +16,9 @@ return newArr;
 }
 
 var newArr2 = [];
-var counter = 0;
 
 function johnLennonFacts(facts) {
+  var counter = 0;
   while (counter < 5) {
     newArr2.push(facts[counter] + "!!!")
     counter++;

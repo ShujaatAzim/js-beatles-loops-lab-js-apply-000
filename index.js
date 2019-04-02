@@ -19,7 +19,7 @@ const facts = ["He was the last Beatle to learn to drive",
 
 function johnLennonFacts(facts) {
   var counter = 0;
-  while (counter < 5) {
+  while (counter < facts.length) {
     newArr2.push(facts[counter] + "!!!")
     counter++;
   }

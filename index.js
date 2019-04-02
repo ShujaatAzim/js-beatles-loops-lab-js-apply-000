@@ -8,8 +8,6 @@ const facts = [
 ]
 
 var newArr = [];
-var newArr2 = [];
-var counter = 0;
 
 function theBeatlesPlay(musicians, instruments) {
   for (var i = 0; i < musicians.length; i++) {
@@ -19,6 +17,8 @@ return newArr;
 }
 
 function johnLennonFacts(facts) {
+  var newArr2 = [];
+  var counter = 0;
   while (counter < 5) {
     newArr2.push(facts[counter] + "!!!")
     counter++;
